@@ -28,13 +28,12 @@ The digital core is responsible for everything regarding:
 - debug and analysis of data
 
 ## Repository structure
-
 ```
 project-root/
-├── designs/              # Your design files (mounted in container as /foss/designs)
-│   ├── libs/            # Design libraries
-│   ├── simulations/     # Simulation results
-│   └── setup_pdk.sh     # PDK setup script
-├── start_vnc.sh         # Container launch script (Unix/Linux/Mac)
-└── README.md            # This file
-```
+├── analog_core/            # Analog core designs
+├── digital_core/           # Digital core designs
+├── tb_analog_core/         # Analog core designs testbench
+├── tb_digital_core/        # Digital core designs testbench
+├── documentation/          # Documentation for additional elements and explanations
+└── misc                    # miscelanious elements for support or pointing to other repos
+
