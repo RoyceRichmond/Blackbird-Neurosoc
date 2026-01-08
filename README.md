@@ -1,5 +1,15 @@
 # Blackbird Project
-Blackbird is a neuromorphic system-on-chip (NeuroSoC) aimed at reconfigurable computing and hardware acceleration.
+
+<img align="left" width="33%" src="/misc/blackbird.png">
+
+Blackbird is a neuromorphic system-on-chip (NeuroSoC) aimed at reconfigurable computing and hardware acceleration. The  core elements for the blackbird platform are interchangeable, modular and has the following elements.
+
+- multiple spiking neuron architectures.
+- synapse mechanisms
+- control units for memory arrays
+- reconfigurable matrix unit
+
+
 ## Why the human brain
 The human brain, the most complex structure in the known universe, has a power consumption of just 20W [Attwell et al., 2001](https://pubmed.ncbi.nlm.nih.gov/11598490/)). It can process, analyze, and even generate novel ideas using the power equivalent of an LED light bulb. This remarkable efficiency is the primary inspiration for neuromorphic computing; it takes inspiration from the brain, how it works, communicates, and tries to replicate its behaviour (side note, 80% of the 20W power is used with  neural signaling and the postsynaptic effects [Attwell et al., 2001](https://pubmed.ncbi.nlm.nih.gov/11598490/)).
 ## What are the parts of the Blackbird NeuroSoC
